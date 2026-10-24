@@ -1,8 +1,11 @@
+import { useState } from "react";
+
 const Home = () => {
+  const [num, setNum] = useState(0);
+
   return (
     <div>
-      <h1>Home</h1>
-      <h1>Created By Hisham</h1>
+      <span>{num}</span>
     </div>
   );
 };
