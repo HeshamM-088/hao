@@ -15,7 +15,7 @@ const Header = () => {
       <div className="">
         <ul className="flex gap-[2em] px-1">
           {links.map(({ id, name, to }) => (
-            <li key={id}>
+            <li>
               <Link to={to}>{name}</Link>
             </li>
           ))}
