@@ -6,6 +6,8 @@ const Home = () => {
   return (
     <div>
       <span>{num}</span>
+      <h1>Home</h1>
+      <h3>Edited By Omar</h3>
     </div>
   );
 };
